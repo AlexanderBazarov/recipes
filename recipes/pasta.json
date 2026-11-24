@@ -1,0 +1,319 @@
+{
+  "title": {
+    "ru": "Паста за 20 минут",
+    "en": "Pasta in 20 minutes"
+  },
+  "date": "2024-01-20",
+  "tag": "#паста",
+  "icon": "utensils",
+  "desc": {
+    "ru": "Паста в томатном соусе с чесноком и сыром. Соус готовится, пока варятся макароны.",
+    "en": "Pasta with a tomato, garlic and cheese sauce. Make the sauce while the pasta cooks."
+  },
+  "body": [
+    {
+      "type": "columns",
+      "template": "minmax(0, 1.5fr) minmax(0, 1fr)",
+      "items": [
+        [
+          {
+            "type": "heading",
+            "text": {
+              "ru": "Паста за 20 минут",
+              "en": "Pasta in 20 minutes"
+            },
+            "level": 1
+          },
+          {
+            "type": "badges",
+            "items": [
+              {
+                "label": {
+                  "ru": "≈20 мин",
+                  "en": "≈20 min"
+                },
+                "tone": "green"
+              },
+              {
+                "label": {
+                  "ru": "2 порции",
+                  "en": "2 servings"
+                },
+                "tone": "green"
+              },
+              {
+                "label": {
+                  "ru": "просто",
+                  "en": "easy"
+                },
+                "tone": "green"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "art",
+            "sprite": "pasta",
+            "title": {
+              "ru": "тарелка пасты",
+              "en": "a plate of pasta"
+            }
+          },
+          {
+            "type": "quote",
+            "text": {
+              "ru": "Вкусные идеи для более ярких дней.",
+              "en": "Tasty ideas for brighter days."
+            },
+            "author": "moonlight_dev"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "panels",
+      "cols": 2,
+      "items": [
+        {
+          "title": {
+            "ru": "ингредиенты",
+            "en": "ingredients"
+          },
+          "icon": "utensils",
+          "fields": [
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "label": {
+                    "ru": "Паста из твёрдых сортов пшеницы",
+                    "en": "Durum wheat pasta"
+                  },
+                  "note": {
+                    "ru": "200 г; спагетти, пенне или фузилли",
+                    "en": "200 g; spaghetti, penne or fusilli"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Томаты в собственном соку, измельчённые",
+                    "en": "Chopped canned tomatoes"
+                  },
+                  "note": {
+                    "ru": "300 г вместе с соком",
+                    "en": "300 g, including the juice"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Чеснок",
+                    "en": "Garlic"
+                  },
+                  "note": {
+                    "ru": "2 зубчика",
+                    "en": "2 cloves"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Пармезан или другой твёрдый сыр",
+                    "en": "Parmesan or another hard cheese"
+                  },
+                  "note": {
+                    "ru": "50 г",
+                    "en": "50 g"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Оливковое масло",
+                    "en": "Olive oil"
+                  },
+                  "note": {
+                    "ru": "2 ст. л. (30 мл)",
+                    "en": "2 tbsp (30 ml)"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Вода для варки",
+                    "en": "Water for boiling"
+                  },
+                  "note": {
+                    "ru": "2 л; сохранить 150 мл после варки",
+                    "en": "2 litres; reserve 150 ml after cooking"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Соль",
+                    "en": "Salt"
+                  },
+                  "note": {
+                    "ru": "около 10 г для воды; в соус — по вкусу",
+                    "en": "about 10 g for the water; season the sauce to taste"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Чёрный перец",
+                    "en": "Black pepper"
+                  },
+                  "note": {
+                    "ru": "по вкусу",
+                    "en": "to taste"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Свежий базилик",
+                    "en": "Fresh basil"
+                  },
+                  "note": {
+                    "ru": "5–6 листиков, по желанию",
+                    "en": "5–6 leaves, optional"
+                  },
+                  "done": false
+                }
+              ]
+            }
+          ],
+          "flush": true
+        },
+        {
+          "title": {
+            "ru": "приготовление",
+            "en": "method"
+          },
+          "icon": "pot",
+          "fields": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": {
+                    "ru": "Поставь воду и подготовь продукты",
+                    "en": "Heat the water and prepare the ingredients"
+                  },
+                  "body": {
+                    "ru": "Налей в кастрюлю 2 л воды, накрой крышкой и поставь на сильный огонь. Пока вода нагревается, мелко поруби чеснок и натри сыр. Если томаты целые, разомни их вилкой вместе с соком.",
+                    "en": "Put 2 litres of water in a covered saucepan over high heat. While it heats, finely chop the garlic and grate the cheese. If using whole canned tomatoes, crush them with a fork in their juice."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Начни варить пасту",
+                    "en": "Start cooking the pasta"
+                  },
+                  "body": {
+                    "ru": "В кипящую воду добавь соль и пасту. Перемешай сразу и ещё раз через минуту. Вари без крышки на умеренном кипении на 1 минуту меньше времени, указанного на упаковке: паста дойдёт в соусе.",
+                    "en": "Add the salt and pasta to the boiling water. Stir immediately and again after a minute. Cook uncovered at a steady boil for 1 minute less than the package instructions; the pasta will finish in the sauce."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Прогрей чеснок в масле",
+                    "en": "Gently cook the garlic"
+                  },
+                  "body": {
+                    "ru": "Одновременно разогрей оливковое масло в широкой сковороде на среднем огне. Добавь чеснок и помешивай 30–60 секунд, пока не появится аромат. Не давай чесноку темнеть: подгоревший чеснок сделает соус горьким.",
+                    "en": "Meanwhile, heat the olive oil in a wide frying pan over medium heat. Add the garlic and stir for 30–60 seconds until fragrant. Do not let it darken; burnt garlic makes the sauce bitter."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Приготовь томатный соус",
+                    "en": "Simmer the tomato sauce"
+                  },
+                  "body": {
+                    "ru": "Добавь томаты вместе с соком, перемешай и доведи до лёгкого кипения. Убавь огонь до среднего или чуть ниже и туши без крышки 7–10 минут, иногда помешивая. Соус должен немного загустеть. Добавь перец; соль пока клади понемногу, поскольку дальше будут сыр и солёная вода от пасты.",
+                    "en": "Add the tomatoes and their juice, stir and bring to a gentle simmer. Reduce to medium-low and cook uncovered for 7–10 minutes, stirring occasionally, until slightly thickened. Add pepper and go easy on the salt, as cheese and salted pasta water will be added later."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Соедини пасту с соусом",
+                    "en": "Finish the pasta in the sauce"
+                  },
+                  "body": {
+                    "ru": "Перед сливом воды отлей 150 мл в кружку. Переложи пасту в сковороду, добавь сначала 50 мл этой воды и перемешивай на среднем огне 1–2 минуты. Если соус слишком густой, подливай воду по 1–2 столовые ложки. Он должен обволакивать пасту, а не собираться сухими комками.",
+                    "en": "Before draining, reserve 150 ml of the cooking water. Add the pasta to the sauce with an initial 50 ml of that water. Toss over medium heat for 1–2 minutes. If too thick, add more water 1–2 tablespoons at a time until the sauce coats the pasta smoothly."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Добавь сыр и подавай",
+                    "en": "Add cheese and serve"
+                  },
+                  "body": {
+                    "ru": "Сними сковороду с огня, вмешай примерно 30 г сыра и порванные листья базилика. Попробуй и при необходимости добавь соль или перец. Разложи по тарелкам, посыпь оставшимся сыром и сразу подавай.",
+                    "en": "Remove from the heat and stir in about 30 g of cheese and the torn basil leaves. Taste and adjust the seasoning. Divide between two plates, sprinkle with the remaining cheese and serve immediately."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panels",
+      "cols": 1,
+      "items": [
+        {
+          "title": {
+            "ru": "полезные заметки",
+            "en": "helpful notes"
+          },
+          "icon": "pot",
+          "fields": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": {
+                    "ru": "Как уложиться в 20 минут",
+                    "en": "How to keep it close to 20 minutes"
+                  },
+                  "body": {
+                    "ru": "Готовь соус одновременно с пастой и используй измельчённые томаты. Если вода долго закипает или паста требует больше 10 минут варки, общее время будет ближе к 25 минутам.",
+                    "en": "Cook the sauce and pasta at the same time and use chopped tomatoes. If the water takes a long time to boil or the pasta needs more than 10 minutes, allow closer to 25 minutes overall."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Если используешь свежие томаты",
+                    "en": "If using fresh tomatoes"
+                  },
+                  "body": {
+                    "ru": "Возьми 300 г спелых томатов и нарежь мелкими кубиками. При желании сними кожицу. Туши до мягкости и выпаривания лишней жидкости; водянистым томатам может понадобиться ещё 5–10 минут.",
+                    "en": "Use 300 g of ripe tomatoes, finely diced and peeled if desired. Simmer until soft and the excess liquid has evaporated; watery tomatoes may need an extra 5–10 minutes."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Не промывай готовую пасту",
+                    "en": "Do not rinse the cooked pasta"
+                  },
+                  "body": {
+                    "ru": "Крахмал на поверхности помогает соусу держаться. Если блюдо стало густым после добавления сыра, вмешай ещё немного горячей воды от варки.",
+                    "en": "The starch on the surface helps the sauce cling. If the cheese makes the sauce too thick, stir in a little more hot pasta water."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
