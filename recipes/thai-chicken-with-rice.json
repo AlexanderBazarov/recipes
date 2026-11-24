@@ -1,0 +1,574 @@
+{
+  "title": {
+    "ru": "Курица по-тайски с ароматным рисом",
+    "en": "Thai-style chicken with aromatic rice"
+  },
+  "date": "2026-11-24",
+  "tag": "#курица",
+  "icon": "utensils",
+  "desc": {
+    "ru": "По рецепту FoodKor: обжаренные бёдрышки с кожей, рис на бульоне и пряный соус с чили, имбирём, шрирачей и рисовым уксусом.",
+    "en": "Based on FoodKor’s recipe: pan-fried skin-on thighs, rice cooked in stock and a spicy chilli, ginger, sriracha and rice vinegar sauce."
+  },
+  "body": [
+    {
+      "type": "columns",
+      "template": "minmax(0, 1.5fr) minmax(0, 1fr)",
+      "items": [
+        [
+          {
+            "type": "heading",
+            "text": {
+              "ru": "Курица по-тайски с ароматным рисом",
+              "en": "Thai-style chicken with aromatic rice"
+            },
+            "level": 1
+          },
+          {
+            "type": "badges",
+            "items": [
+              {
+                "label": {
+                  "ru": "≈30–35 мин",
+                  "en": "≈30–35 min"
+                },
+                "tone": "green"
+              },
+              {
+                "label": {
+                  "ru": "2–3 порции",
+                  "en": "2–3 servings"
+                },
+                "tone": "green"
+              },
+              {
+                "label": {
+                  "ru": "средне",
+                  "en": "medium"
+                },
+                "tone": "yellow"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "panels",
+            "cols": 1,
+            "items": [
+              {
+                "title": {
+                  "ru": "о рецепте",
+                  "en": "about this recipe"
+                },
+                "icon": "utensils",
+                "fields": [
+                  {
+                    "type": "steps",
+                    "items": [
+                      {
+                        "title": {
+                          "ru": "По видео FoodKor",
+                          "en": "From a FoodKor video"
+                        },
+                        "body": {
+                          "ru": "Куриные бёдрышки с хрустящей кожей, ароматный рис и соус с чили, имбирём и шрирачей. Подробный источник указан внизу.",
+                          "en": "Crisp-skinned chicken thighs, aromatic rice and a chilli, ginger and sriracha sauce. Source details are included below."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "panels",
+      "cols": 2,
+      "items": [
+        {
+          "title": {
+            "ru": "ингредиенты",
+            "en": "ingredients"
+          },
+          "icon": "utensils",
+          "fields": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": {
+                "ru": "Для риса",
+                "en": "For the rice"
+              }
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "label": {
+                    "ru": "Длиннозёрный белый рис",
+                    "en": "Long-grain white rice"
+                  },
+                  "note": {
+                    "ru": "1½ стакана; жасмин или басмати",
+                    "en": "1½ cups; jasmine or basmati"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Куриный бульон или вода",
+                    "en": "Chicken stock or water"
+                  },
+                  "note": {
+                    "ru": "2 стакана, той же меркой, что и рис",
+                    "en": "2 cups, using the same cup as for the rice"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Свежий имбирь",
+                    "en": "Fresh ginger"
+                  },
+                  "note": {
+                    "ru": "10 г",
+                    "en": "10 g"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Чеснок",
+                    "en": "Garlic"
+                  },
+                  "note": {
+                    "ru": "4–5 зубчиков",
+                    "en": "4–5 cloves"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Зелёный лук",
+                    "en": "Spring onions"
+                  },
+                  "note": {
+                    "ru": "20 г",
+                    "en": "20 g"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Растительное масло",
+                    "en": "Vegetable oil"
+                  },
+                  "note": {
+                    "ru": "около 1 ст. л. для обжаривания",
+                    "en": "about 1 tbsp for frying"
+                  },
+                  "done": false
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": {
+                "ru": "Для курицы",
+                "en": "For the chicken"
+              }
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "label": {
+                    "ru": "Филе куриного бедра с кожей, без кости",
+                    "en": "Boneless, skin-on chicken thighs"
+                  },
+                  "note": {
+                    "ru": "300 г",
+                    "en": "300 g"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Соль",
+                    "en": "Salt"
+                  },
+                  "note": {
+                    "ru": "2–3 щепотки",
+                    "en": "2–3 pinches"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Чёрный перец",
+                    "en": "Black pepper"
+                  },
+                  "note": {
+                    "ru": "по вкусу, по желанию",
+                    "en": "to taste, optional"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Растительное масло",
+                    "en": "Vegetable oil"
+                  },
+                  "note": {
+                    "ru": "около 1 ч. л. для сковороды",
+                    "en": "about 1 tsp for the pan"
+                  },
+                  "done": false
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": {
+                "ru": "Для соуса",
+                "en": "For the sauce"
+              }
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "label": {
+                    "ru": "Свежий перец чили",
+                    "en": "Fresh chilli"
+                  },
+                  "note": {
+                    "ru": "1 шт.; остроту выбирай по вкусу",
+                    "en": "1 chilli; choose the heat level to taste"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Чеснок",
+                    "en": "Garlic"
+                  },
+                  "note": {
+                    "ru": "3–4 зубчика",
+                    "en": "3–4 cloves"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Свежий имбирь",
+                    "en": "Fresh ginger"
+                  },
+                  "note": {
+                    "ru": "10 г",
+                    "en": "10 g"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Зелёный лук",
+                    "en": "Spring onions"
+                  },
+                  "note": {
+                    "ru": "10 г",
+                    "en": "10 g"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Молотый кориандр",
+                    "en": "Ground coriander"
+                  },
+                  "note": {
+                    "ru": "1 ч. л.; пояснение по количеству — в заметках",
+                    "en": "1 tsp; see the quantity note below"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Сахар",
+                    "en": "Sugar"
+                  },
+                  "note": {
+                    "ru": "1 ст. л.",
+                    "en": "1 tbsp"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Растительное масло",
+                    "en": "Vegetable oil"
+                  },
+                  "note": {
+                    "ru": "2–3 ст. л. (30–45 мл)",
+                    "en": "2–3 tbsp (30–45 ml)"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Рисовый уксус 5%",
+                    "en": "Rice vinegar, 5% acidity"
+                  },
+                  "note": {
+                    "ru": "1 ст. л. (15 мл)",
+                    "en": "1 tbsp (15 ml)"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Соус шрирача",
+                    "en": "Sriracha"
+                  },
+                  "note": {
+                    "ru": "1 ст. л. (15 мл)",
+                    "en": "1 tbsp (15 ml)"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Соевый соус",
+                    "en": "Soy sauce"
+                  },
+                  "note": {
+                    "ru": "2 ст. л. (30 мл)",
+                    "en": "2 tbsp (30 ml)"
+                  },
+                  "done": false
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": {
+                "ru": "Для подачи",
+                "en": "To serve"
+              }
+            },
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "label": {
+                    "ru": "Зелёный лук",
+                    "en": "Spring onions"
+                  },
+                  "note": {
+                    "ru": "несколько дополнительных перьев, по желанию",
+                    "en": "a few extra leaves, optional"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Свежая кинза",
+                    "en": "Fresh coriander leaves"
+                  },
+                  "note": {
+                    "ru": "несколько веточек, по желанию",
+                    "en": "a few sprigs, optional"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Обжаренный кунжут",
+                    "en": "Toasted sesame seeds"
+                  },
+                  "note": {
+                    "ru": "по вкусу, по желанию",
+                    "en": "to taste, optional"
+                  },
+                  "done": false
+                }
+              ]
+            }
+          ],
+          "flush": true
+        },
+        {
+          "title": {
+            "ru": "приготовление",
+            "en": "method"
+          },
+          "icon": "pot",
+          "fields": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": {
+                    "ru": "Подготовь продукты для риса",
+                    "en": "Prepare the rice ingredients"
+                  },
+                  "body": {
+                    "ru": "Промой рис в нескольких водах до прозрачности и дай стечь. Для риса нарежь 10 г имбиря тонкой соломкой, поруби 4–5 зубчиков чеснока. Зелёный лук массой 20 г свяжи узлом или сложи в небольшой пучок: после приготовления его нужно будет вынуть.",
+                    "en": "Rinse the rice until the water runs clear and drain. For the rice, cut 10 g of ginger into thin matchsticks and chop 4–5 garlic cloves. Tie the 20 g of spring onions into a knot or gather into a small bundle so they can be removed later."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Обжарь ароматные добавки",
+                    "en": "Fry the aromatics"
+                  },
+                  "body": {
+                    "ru": "В кастрюле с толстым дном и плотно прилегающей крышкой нагрей около 1 столовой ложки масла на среднем огне. Добавь подготовленные чеснок, имбирь и пучок лука. Помешивая, обжаривай 1–1½ минуты до появления аромата, не давая чесноку подгореть.",
+                    "en": "Heat about 1 tablespoon of oil over medium heat in a heavy-bottomed saucepan with a tight-fitting lid. Add the prepared garlic, ginger and spring onion bundle. Stir for 1–1½ minutes until fragrant, without burning the garlic."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Приготовь рис",
+                    "en": "Cook the rice"
+                  },
+                  "body": {
+                    "ru": "Добавь промытый рис и влей 2 стакана бульона или воды, отмеряя тем же стаканом, которым отмерял рис. Как только появится слабое кипение, убавь огонь до минимального и накрой крышкой. В ролике рис готовится 10 минут, затем ещё 10 минут стоит под крышкой без нагрева. Если твой сорт требует более долгой варки, доведи его до мягкости по инструкции на упаковке; при необходимости добавь немного горячей воды.",
+                    "en": "Add the drained rice and 2 cups of stock or water, measured with the same cup used for the rice. As soon as it gently simmers, reduce the heat to low and cover. In the video, the rice cooks for 10 minutes, then rests covered off the heat for another 10. If your rice needs longer, follow its package timing and cook until tender, adding a little hot water if necessary."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Собери основу соуса",
+                    "en": "Prepare the sauce base"
+                  },
+                  "body": {
+                    "ru": "Пока готовится рис, очень мелко нарежь чили, оставшиеся 10 г имбиря, 3–4 зубчика чеснока и 10 г зелёного лука. Сложи их в глубокую жаропрочную миску, добавь кориандр и сахар. Для более мягкого вкуса у чили можно удалить внутренние перегородки или взять менее острый сорт.",
+                    "en": "While the rice cooks, finely chop the chilli, the remaining 10 g of ginger, 3–4 garlic cloves and 10 g of spring onions. Put them in a deep heatproof bowl with the coriander and sugar. For a milder sauce, remove the chilli’s inner membranes or choose a milder variety."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Залей основу горячим маслом",
+                    "en": "Pour hot oil over the aromatics"
+                  },
+                  "body": {
+                    "ru": "В маленькой сухой сковороде хорошо разогрей 2–3 столовые ложки растительного масла, но не доводи до дыма. Осторожно полей им содержимое жаропрочной миски: смесь зашипит. Сразу перемешай. Когда активное шипение стихнет, добавь шрирачу, соевый соус и рисовый уксус, затем снова перемешай. Соус больше не нужно жарить.",
+                    "en": "Heat 2–3 tablespoons of vegetable oil in a small dry pan until hot but not smoking. Carefully pour it over the ingredients in the heatproof bowl; they will sizzle. Stir immediately. Once the vigorous sizzling subsides, stir in the sriracha, soy sauce and rice vinegar. The sauce needs no further frying."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Подготовь курицу",
+                    "en": "Prepare the chicken"
+                  },
+                  "body": {
+                    "ru": "Разверни филе бёдер, сохранив кожу. Слишком толстые участки надрежь со стороны мяса и раскрой, чтобы толщина была более равномерной. Обсуши бумажным полотенцем, слегка посоли и по желанию поперчи. На кусочки пока не режь: в видео бёдрышки жарятся целиком.",
+                    "en": "Open out the thigh fillets, keeping the skin intact. Butterfly any particularly thick sections from the meat side so they cook evenly. Pat dry, lightly salt and add pepper if desired. Leave the thighs whole for frying, as shown in the video."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Обжарь бёдрышки до готовности",
+                    "en": "Pan-fry the thighs until cooked"
+                  },
+                  "body": {
+                    "ru": "Разогрей сковороду с небольшим количеством масла на среднем или средне-сильном огне. Выложи курицу кожей вниз и обжаривай около 5 минут до золотистой корочки. Переверни и готовь ещё примерно 5 минут. Если кожа слишком быстро темнеет, убавь нагрев. Время зависит от толщины: проверь термометром, что внутри самой толстой части достигнуто 74 °C, и при необходимости готовь дольше.",
+                    "en": "Heat a little oil in a frying pan over medium to medium-high heat. Place the thighs skin-side down and fry for about 5 minutes until golden, then turn and cook for approximately 5 minutes more. Reduce the heat if the skin darkens too quickly. Timing depends on thickness: check that the thickest part reaches 74°C (165°F), cooking longer if necessary."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Подготовь подачу",
+                    "en": "Prepare to serve"
+                  },
+                  "body": {
+                    "ru": "При желании нарежь дополнительные перья зелёного лука тонкой соломкой и заранее замочи в холодной воде на 10–15 минут, затем обсуши. Из готового риса вынь пучок лука и аккуратно разрыхли рис. Курицу переложи на чистую доску, дай постоять 2–3 минуты и нарежь поперёк полосками.",
+                    "en": "If desired, finely shred extra spring onion leaves and soak them in cold water for 10–15 minutes while cooking, then drain. Remove the onion bundle from the cooked rice and fluff it gently. Transfer the chicken to a clean board, rest for 2–3 minutes and slice into strips."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Собери блюдо",
+                    "en": "Assemble the dish"
+                  },
+                  "body": {
+                    "ru": "Разложи ароматный рис по глубоким тарелкам, сверху выложи нарезанную курицу. Перемешай соус и полей им мясо непосредственно перед подачей. Укрась зелёным луком, кинзой и кунжутом по желанию. Часть соуса можно подать отдельно, чтобы каждый добавил его по вкусу.",
+                    "en": "Spoon the aromatic rice into bowls and arrange the sliced chicken on top. Stir the sauce and spoon it over the chicken just before serving. Add spring onions, coriander leaves and sesame seeds if desired. Serve any remaining sauce separately so everyone can adjust the amount."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panels",
+      "cols": 1,
+      "items": [
+        {
+          "title": {
+            "ru": "полезные заметки",
+            "en": "helpful notes"
+          },
+          "icon": "pot",
+          "fields": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": {
+                    "ru": "Источник рецепта",
+                    "en": "Recipe source"
+                  },
+                  "body": {
+                    "ru": "Денис Ким, канал FoodKor. Видео: https://www.youtube.com/watch?v=D-nIUBxKjl8 . Состав и основные пропорции взяты из описания, порядок приготовления сверён с расшифровкой. Текст шагов переработан для этой карточки.",
+                    "en": "Denis Kim, FoodKor. Video: https://www.youtube.com/watch?v=D-nIUBxKjl8 . Ingredients and main quantities come from the description; the method was checked against the transcript and rewritten for this card."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Уточнения к пропорциям автора",
+                    "en": "Notes on the original quantities"
+                  },
+                  "body": {
+                    "ru": "В описании объём стакана не указан, поэтому рис и бульон оставлены в исходных мерках: 1½ и 2 стакана. Кориандр у автора записан как «5 г (1 ч.л.)»; это не универсальное равенство, поэтому здесь использована ложечная мера — 1 ч. л. Масло для обжаривания риса и курицы в видео добавляется на глаз; приведённые для него количества — ориентиры.",
+                    "en": "The description does not specify the cup size, so rice and stock retain the original measures: 1½ and 2 cups. Coriander is listed as “5 g (1 tsp)”; those measures are not universally equivalent, so this card uses 1 teaspoon. The frying oil for the rice and chicken is added by eye in the video; the quantities given here are estimates."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Время, порции и острота",
+                    "en": "Timing, portions and heat"
+                  },
+                  "body": {
+                    "ru": "30–35 минут с подготовкой и 2–3 порции — ориентировочная оценка для карточки. Рис, соус и курицу готовь параллельно. Острота зависит от конкретного чили и шрирачи; для мягкого варианта начни с половины чили и 1 чайной ложки шрирачи, затем добавь ещё по вкусу.",
+                    "en": "The 30–35 minute total including preparation and the 2–3 servings are estimates for this card. Prepare the rice, sauce and chicken in parallel. Heat varies with the chilli and sriracha; for a milder version, start with half a chilli and 1 teaspoon of sriracha, then adjust to taste."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Как проверить готовность мяса",
+                    "en": "How to check the chicken"
+                  },
+                  "body": {
+                    "ru": "Проверка температуры 74 °C добавлена как практический ориентир готовности; она не заменяется указанными минутами жарки. Источник: https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+                    "en": "The internal temperature check of 74°C (165°F) is an added doneness guide; frying time alone is not a substitute. Source: https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
