@@ -1,0 +1,342 @@
+{
+  "title": {
+    "ru": "Острый рис с курицей",
+    "en": "Spicy rice with chicken"
+  },
+  "date": "2024-01-05",
+  "tag": "#рис",
+  "icon": "utensils",
+  "desc": {
+    "ru": "Рис с сочной курицей, чили и яйцом в одной сковороде. Рис готовится прямо в соусе и впитывает вкус мяса и овощей.",
+    "en": "One-pan rice with juicy chicken, chilli and egg. The rice cooks in the sauce, absorbing the flavour of the chicken and vegetables."
+  },
+  "body": [
+    {
+      "type": "columns",
+      "template": "minmax(0, 1.5fr) minmax(0, 1fr)",
+      "items": [
+        [
+          {
+            "type": "heading",
+            "text": {
+              "ru": "Острый рис с курицей",
+              "en": "Spicy rice with chicken"
+            },
+            "level": 1
+          },
+          {
+            "type": "badges",
+            "items": [
+              {
+                "label": {
+                  "ru": "≈40 мин",
+                  "en": "≈40 min"
+                },
+                "tone": "green"
+              },
+              {
+                "label": {
+                  "ru": "3 порции",
+                  "en": "3 servings"
+                },
+                "tone": "green"
+              },
+              {
+                "label": {
+                  "ru": "средне",
+                  "en": "medium"
+                },
+                "tone": "yellow"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "quote",
+            "text": {
+              "ru": "Одна сковорода — меньше посуды, больше вкуса.",
+              "en": "One pan — fewer dishes, more flavour."
+            },
+            "author": "moonlight_dev"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "panels",
+      "cols": 2,
+      "items": [
+        {
+          "title": {
+            "ru": "ингредиенты",
+            "en": "ingredients"
+          },
+          "icon": "utensils",
+          "fields": [
+            {
+              "type": "checklist",
+              "items": [
+                {
+                  "label": {
+                    "ru": "Белый рис басмати",
+                    "en": "White basmati rice"
+                  },
+                  "note": {
+                    "ru": "250 г сухого; не пропаренный",
+                    "en": "250 g uncooked; not parboiled"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Филе куриного бедра без кожи",
+                    "en": "Boneless, skinless chicken thighs"
+                  },
+                  "note": {
+                    "ru": "400 г",
+                    "en": "400 g"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Репчатый лук",
+                    "en": "Onion"
+                  },
+                  "note": {
+                    "ru": "1 средняя луковица, около 120 г",
+                    "en": "1 medium onion, about 120 g"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Свежий перец чили",
+                    "en": "Fresh chilli"
+                  },
+                  "note": {
+                    "ru": "½–1 шт., по желаемой остроте",
+                    "en": "½–1 chilli, to taste"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Яйца",
+                    "en": "Eggs"
+                  },
+                  "note": {
+                    "ru": "2 шт.",
+                    "en": "2"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Соевый соус",
+                    "en": "Soy sauce"
+                  },
+                  "note": {
+                    "ru": "3 ст. л. (45 мл)",
+                    "en": "3 tbsp (45 ml)"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Горячая вода",
+                    "en": "Hot water"
+                  },
+                  "note": {
+                    "ru": "450 мл; ещё 30–50 мл при необходимости",
+                    "en": "450 ml; another 30–50 ml if needed"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Растительное масло",
+                    "en": "Vegetable oil"
+                  },
+                  "note": {
+                    "ru": "2 ст. л. (30 мл)",
+                    "en": "2 tbsp (30 ml)"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Чёрный перец",
+                    "en": "Black pepper"
+                  },
+                  "note": {
+                    "ru": "по вкусу",
+                    "en": "to taste"
+                  },
+                  "done": false
+                },
+                {
+                  "label": {
+                    "ru": "Соль",
+                    "en": "Salt"
+                  },
+                  "note": {
+                    "ru": "при необходимости, после пробы",
+                    "en": "only if needed after tasting"
+                  },
+                  "done": false
+                }
+              ]
+            }
+          ],
+          "flush": true
+        },
+        {
+          "title": {
+            "ru": "приготовление",
+            "en": "method"
+          },
+          "icon": "pot",
+          "fields": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": {
+                    "ru": "Подготовь рис, мясо и овощи",
+                    "en": "Prepare the rice, chicken and vegetables"
+                  },
+                  "body": {
+                    "ru": "Промой рис несколько раз до почти прозрачной воды и дай хорошо стечь в сите. Курицу обсуши и нарежь кусочками по 2–3 см. Лук нарежь мелкими кубиками, чили — тонкими колечками. Для меньшей остроты удали внутренние перегородки и часть семян. Яйца разбей в отдельную миску и взбей вилкой.",
+                    "en": "Rinse the rice several times until the water is almost clear, then drain well in a sieve. Pat the chicken dry and cut into 2–3 cm pieces. Finely dice the onion and thinly slice the chilli. For less heat, remove the inner membranes and some seeds. Beat the eggs in a separate bowl."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Сначала приготовь яйца",
+                    "en": "Cook the eggs first"
+                  },
+                  "body": {
+                    "ru": "Разогрей глубокую сковороду диаметром 26–28 см на среднем огне. Добавь 1 чайную ложку масла из общего количества, влей яйца и готовь 1–2 минуты, собирая их лопаткой в мягкие кусочки. Когда жидкого яйца не останется, переложи его на чистую тарелку.",
+                    "en": "Heat a deep 26–28 cm frying pan over medium heat. Add 1 teaspoon of the measured oil, pour in the eggs and scramble for 1–2 minutes. Once no liquid egg remains, transfer to a clean plate."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Подрумянь курицу",
+                    "en": "Brown the chicken"
+                  },
+                  "body": {
+                    "ru": "Добавь в ту же сковороду оставшееся масло и увеличь огонь до средне-сильного. Выложи курицу одним слоем, не трогай около 2 минут, затем переверни и жарь ещё 3–4 минуты. На мясе должна появиться корочка; до полной готовности оно дойдёт вместе с рисом.",
+                    "en": "Add the remaining oil to the same pan and increase the heat to medium-high. Arrange the chicken in a single layer, leave undisturbed for about 2 minutes, then turn and cook for another 3–4 minutes. It should brown; it will finish cooking with the rice."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Добавь лук, чили и рис",
+                    "en": "Add the onion, chilli and rice"
+                  },
+                  "body": {
+                    "ru": "Убавь огонь до среднего. Добавь к курице лук и чили, обжаривай 3 минуты, помешивая, пока лук не станет мягче. Всыпь хорошо стекший рис и перемешивай ещё 1 минуту, чтобы зёрна покрылись маслом.",
+                    "en": "Reduce the heat to medium. Add the onion and chilli and cook for 3 minutes, stirring, until the onion softens. Stir in the well-drained rice for another minute to coat the grains in oil."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Влей воду и соевый соус",
+                    "en": "Add the water and soy sauce"
+                  },
+                  "body": {
+                    "ru": "Влей 450 мл горячей воды и 3 столовые ложки соевого соуса. Добавь чёрный перец. Аккуратно перемешай, соскребая со дна поджаренные кусочки. Разровняй рис, распределив курицу равномерно, и доведи жидкость до слабого кипения.",
+                    "en": "Pour in 450 ml of hot water and 3 tablespoons of soy sauce. Add black pepper. Stir gently, loosening the browned bits from the bottom, then level the rice and distribute the chicken evenly. Bring to a gentle simmer."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Доведи рис и курицу до готовности",
+                    "en": "Cook the rice and chicken through"
+                  },
+                  "body": {
+                    "ru": "Накрой плотно прилегающей крышкой и сразу убавь огонь до минимального. Готовь около 15 минут, не перемешивая. Проверь: рис должен стать мягким, а свободная жидкость — впитаться. Температура в середине самого крупного кусочка курицы должна достигнуть 74 °C. Если рис ещё твёрдый и жидкости нет, подлей 30–50 мл горячей воды и готовь под крышкой ещё 3–5 минут.",
+                    "en": "Cover with a tight-fitting lid and immediately reduce the heat to low. Cook for about 15 minutes without stirring. The rice should be tender with no free liquid remaining. The centre of the largest chicken piece should reach 74°C (165°F). If the rice is still firm and the pan is dry, add 30–50 ml of hot water and cook covered for another 3–5 minutes."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Дай рису отдохнуть",
+                    "en": "Let the rice rest"
+                  },
+                  "body": {
+                    "ru": "Когда рис и курица готовы, выключи огонь и оставь сковороду под крышкой на 5 минут. Этот отдых помогает влаге распределиться, а рису стать более рассыпчатым.",
+                    "en": "Once the rice and chicken are cooked, turn off the heat and leave covered for 5 minutes. This allows the moisture to distribute through the rice."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Верни яйца и подавай",
+                    "en": "Fold in the eggs and serve"
+                  },
+                  "body": {
+                    "ru": "Разрыхли рис вилкой или лопаткой и аккуратно вмешай приготовленные яйца. Накрой на 1 минуту, чтобы они прогрелись от горячего риса. Попробуй перед добавлением соли: соевый соус уже солёный. Разложи по тарелкам и подавай горячим.",
+                    "en": "Fluff the rice with a fork or spatula and gently fold in the cooked eggs. Cover for 1 minute so the hot rice warms them through. Taste before adding salt, as the soy sauce is already salty. Divide between plates and serve hot."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panels",
+      "cols": 1,
+      "items": [
+        {
+          "title": {
+            "ru": "полезные заметки",
+            "en": "helpful notes"
+          },
+          "icon": "pot",
+          "fields": [
+            {
+              "type": "steps",
+              "items": [
+                {
+                  "title": {
+                    "ru": "Какой рис подходит",
+                    "en": "Choosing the rice"
+                  },
+                  "body": {
+                    "ru": "Время и количество воды рассчитаны на обычный белый басмати. Для бурого или пропаренного риса они будут другими. Если на упаковке твоего риса указаны заметно иные пропорции для варки под крышкой, ориентируйся на них, учитывая 45 мл соевого соуса в общем объёме жидкости.",
+                    "en": "The timing and water quantity are intended for regular white basmati. Brown or parboiled rice needs different amounts and cooking times. If your package gives substantially different covered-cooking instructions, follow those and count the 45 ml of soy sauce towards the total liquid."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Зачем жарить яйца отдельно",
+                    "en": "Why cook the eggs first?"
+                  },
+                  "body": {
+                    "ru": "Так они остаются отдельными кусочками и успевают полностью приготовиться. Сковорода при этом остаётся одна: яйца временно ждут на тарелке.",
+                    "en": "This keeps the eggs in distinct pieces and ensures they are fully cooked. You still use just one frying pan; the eggs wait briefly on a plate."
+                  }
+                },
+                {
+                  "title": {
+                    "ru": "Готовность курицы",
+                    "en": "Checking the chicken"
+                  },
+                  "body": {
+                    "ru": "Ориентир 74 °C относится к температуре внутри мяса, измеренной кухонным термометром. Источник: https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+                    "en": "The 74°C (165°F) target is the internal meat temperature, measured with a food thermometer. Source: https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
